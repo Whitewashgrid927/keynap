@@ -3,6 +3,20 @@
 A small, local macOS keyboard-cleaning utility. Swift, SwiftUI, AppKit and public
 Quartz Event Services; macOS 26 or newer, Apple silicon.
 
+## Download and install
+
+[Download KeyNap 1.0.1 for Apple silicon](https://github.com/Whitewashgrid927/keynap/releases/download/v1.0.1/KeyNap-1.0.1-macOS-arm64.zip).
+This is a finished app; Xcode and building the source are not required.
+
+1. Quit any older KeyNap, unzip the download, and drag **KeyNap.app** into **Applications**.
+2. Open KeyNap from Applications.
+3. When prompted, enable KeyNap in **System Settings > Privacy & Security > Accessibility**.
+
+Requires **macOS 26 or newer on Apple silicon**. The app is signed with Apple
+Developer ID and notarized by Apple. Installation notes and the MIT license are
+included in the ZIP. [Release details and SHA-256 checksum](https://github.com/Whitewashgrid927/keynap/releases/tag/v1.0.1)
+are also available. Choose the named app ZIP in the release's Assets list.
+
 ## Use
 
 Open /Applications/KeyNap.app. Select all keys, a group, a side, individual keys,
