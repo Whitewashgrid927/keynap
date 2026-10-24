@@ -1,0 +1,39 @@
+# Build products and local development state
+.build*/
+DerivedData/
+output.noindex/
+*.app/
+*.dSYM/
+*.xcarchive/
+*.pkg
+*.dmg
+*.zip
+*.log
+*.trace
+
+# Local signing configuration, credentials and certificate exports
+.env
+.env.*
+!.env.example
+*.local.sh
+*.local.env
+Signing.local.*
+FanPilotSigning.swift
+signing.*/
+*.p12
+*.pfx
+*.p8
+*.pem
+*.key
+*.cer
+*.mobileprovision
+*.provisionprofile
+
+# macOS and per-user editor files
+.DS_Store
+._*
+__MACOSX/
+xcuserdata/
+*.xcuserstate
+.vscode/
+.idea/
